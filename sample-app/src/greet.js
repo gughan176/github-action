@@ -6,7 +6,7 @@
 //
 //   1. cleanReports()  ->  js/shell-command-injection-from-environment
 //                          precision HIGH   -> in CodeQL's DEFAULT suite.
-//   2. greet()         ->  js/indirect-command-line-injection
+//   2. greet()         -> js/indirect-command-line-injection
 //                          precision MEDIUM -> needs `queries: security-extended`.
 //
 // The default suite only admits high/very-high precision security queries, so
